@@ -104,18 +104,33 @@ txt = "I could eat bananas all day"
 x = txt.partition("bananas")
 print(x)        # output ('I could eat ', 'bananas', ' all day')
 # replace(old_value, new_value, count) : change in a specified position
+
 # rfind() : Searches the string for a specified value and returns the last position of where it was found
+
 # rindex() : find index of of characher from the end
+
 # rjust() : similar like ljust but at the right side
+
 # rpartition() : similar to partition but from the right end
+
 # rsplit("symbol",n) : splits a string into a list, starting from the right. and n specifies the grouping of how many entity
+
 # rstrip() : is used to remove character from the right side of the string.
+
 # split() : Splits the string at the specified separator
+
 # splitness() : splits a string into a list. on the occurance of \n in a sentance nd if it's parameter = 'True' then \n will also be include in list
+
 # startswith() : returns true if a string returns a specified value
+
 # strip('characters') : it is used to remove specific character from the beginning and from the end (generally whitespaces)
+
 # swapcase() : converts lower to upper and vice versa character
+
 # title() :  it converts the first letter of each case in upper
+
 # translate() :  # didn't get
+
 # upper() : convert a string into upper case
+
 # zfill(n) : it adds 0 in the beg as specified
