@@ -1,6 +1,10 @@
 # play with set
 '''
 Set uses the concept of hash
+denoted by {}
+unordered unchangeable un indexed
+* it is unchangeable but we can add and remove items
+duplicates are not allowed
 '''
 """
 methods
@@ -22,3 +26,6 @@ symmetric_difference_update()	inserts the symmetric differences from this set an
 union()	                        Return a set containing the union of sets
 update()	                    Update the set with the union of this set and others
 """
+
+a = {'1','2','3','4'}
+a.add('5')
